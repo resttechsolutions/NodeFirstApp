@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/head.html') %>
+
+<body>
+    <%- include('partials/navigation.html') %>
+
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <div class="card flip-in-diag-2-br">
+                    <div class="card-header bg-dark text-white">
+                        <h3>Conctact Me</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" placeholder="Email" id="" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Message" id="" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include('partials/footer.html') %>
+
+</body>
+</html>
